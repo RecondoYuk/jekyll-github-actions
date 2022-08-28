@@ -67,20 +67,22 @@ GEM
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
 
 PLATFORMS
   arm64-darwin-21
-  bundle lock --add-platform ruby
+  bundle lock -unknown
 
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.2.2)
   jekyll-feed (~> 0.12)
-  jekyll-timeago (~> 0.13.1)
+  jekyll-timeago
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
+  webrick (~> 1.7)
 
 RUBY VERSION
    ruby 3.1.2p20
